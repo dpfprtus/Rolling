@@ -1,0 +1,371 @@
+.App {
+  display:flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.main {
+  /*margin: 0px 0px 60px;
+  display: flex;
+  height: max-content;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  background-color: white;*/
+  
+  position: relative;
+  width: 428px;
+  height: 926px;
+  background: #FFFFFF;
+}
+#title {
+  position:absolute;
+  width: max-content;
+  height: max-content;
+  left:110px;
+  top: 149px;
+
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+
+
+  color: #000000;
+
+}
+.title1 {
+  position:absolute;
+  width: max-content;
+  height: max-content;
+  left:50px;
+  top: 149px;
+
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+
+
+  color: #000000;
+
+}
+
+.title2 {
+  position:absolute;
+  width: max-content;
+  height: max-content;
+  left: 40px;
+  top: 149px;
+
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+
+
+  color: #000000;
+
+}
+
+#comment_1 {
+  position: absolute;
+width: 50px;
+height: 65px;
+left: 253px;
+top: 537px;
+}
+
+#comment_2 {
+  position: absolute;
+  width: 120px;
+  height: 65px;
+  left: 275px;
+  top: 232px;
+}
+
+#comment_3 {
+  position: absolute;
+  width: 100px;
+  height: 65px;
+  left: 51px;
+  top: 232px;
+}
+
+#mainpage_1 {
+  position: absolute;
+  width: 66.16px;
+  height: 100px;
+  left: 68px;
+  top: 307px;
+}
+
+#mainpage_2 {
+  position: absolute;
+  width: 120.45px;
+  height: 100px;
+  left: 154px;
+  top: 307px;
+}
+
+#mainpage_3 {
+  position: absolute;
+  width: 70.77px;
+  height: 100px;
+  left: 294px;
+  top: 307px;
+}
+
+#mainpage_4 {
+  position: absolute;
+  width: 108.11px;
+  height: 100px;
+  left: 94px;
+  top: 427px;
+}
+
+#mainpage_5 {
+  position: absolute;
+  width: 112.53px;
+  height: 100px;
+  left: 222px;
+  top: 427px;
+}
+
+#button_1 {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  left: 64px;
+  top: 656px;
+  border-radius: 25px;
+  color:white;
+  background-image:url("../public/img/button_1.png");
+  background-size: cover;
+  border-color: #00A3FF;
+}
+
+#button_2 {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  left: 64px;
+  top: 726px;
+  border-radius: 25px;
+  background-image:url("../public/img/button_2.png");
+  background-size: cover;
+  border-color: #00A3FF;
+} 
+
+/*튜토리얼 페이지*/
+#text {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  left: 30px;
+  top: 222px;
+
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+color: #000000;
+}
+
+#tutorial {
+  position: absolute;
+  width: 428px;
+  height: 456px;
+  left: 0px;
+  top: 470px;
+
+}
+
+#tutorial_1 {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  left: 64px;
+  top: 310px;
+  border-radius: 25px;
+  background-image:url("../public/img/tutorial_1.svg");
+  background-size: cover;
+  border-color: #00A3FF;
+}
+
+#tutorial_2 {
+  position: absolute;
+  left: 134px;
+  top: 370px;
+}
+
+#line_1 {
+  position: absolute;
+  width: 428px;
+  height: 1px;
+  left: 0px;
+  top: 380px;
+  background: #00A3FF;
+}
+
+#line_2 {
+  position: absolute;
+  width: 428px;
+  height: 1px;
+  left: 0px;
+  top: 310px;
+  background: #00A3FF;
+}
+
+#line_3 {
+  position: absolute;
+  width: 428px;
+  height: 1px;
+  left: 0px;
+  top: 444px;
+  background: #00A3FF;
+}
+
+#line_4 {
+  position: absolute;
+  width: 428px;
+  height: 1px;
+  left: 0px;
+  top: 670px;
+  background: #00A3FF;
+}
+
+
+#text_1 {
+  position: absolute;
+width: 340px;
+height: 60px;
+left: 30px;
+top: 383px;
+
+font-family: 'NanumSquareRound';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #000000;
+}
+
+#text_2 {
+  position: absolute;
+width: max-content;
+height: 60px;
+left: 15px;
+top: 310px;
+
+font-family: 'NanumSquareRound';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #000000;
+}
+
+#img_1 {
+  position: absolute;
+  left: 30px;
+  top: 570px;
+}
+
+#img_2 {
+  position: absolute;
+  left: 174px;
+  top: 750px;
+}
+
+#img_3 {
+position: absolute;
+width: 300px;
+height: 127px;
+left: 64px;
+top: 465px;
+}
+
+#img_4 {
+  position: absolute;
+  left: 134px;
+  top: 680px;
+  }
+#start_button {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  left: 64px;
+  top: 800px;
+  border-radius: 25px;
+  background-image:url("../public/img/tutorial_7.svg");
+  background-size: cover;
+  border-color: #00A3FF;
+}
+
+/*로그인 페이지*/
+
+#login_img {
+  position: absolute;
+  left: 164px;
+  top: 250px;
+}
+
+#name {
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  left: 248px;
+  top: 69px;
+}
+
+#name_title {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  left: 105px;
+  top: 149px;
+
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+}
+#name_text {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  left: 70px;
+  top: 203px;
+
+  font-family: 'NanumSquareRound';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+#login_button {
+  position: absolute;
+  width: 300px;
+height: 60px;
+  left: 64px;
+  top: 476px;
+  border-radius: 5px;
+  background-image:url("../public/img/login_1.svg");
+  background-size: cover;
+  border-color: #FFEB00;
+} 
